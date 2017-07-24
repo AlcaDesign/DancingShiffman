@@ -10,6 +10,7 @@ function createWindow() {
 		transparent: true,
 		alwaysOnTop: true,
 		focusable: false,
+		skipTaskbar: false,
 		fullscreen: true,
 		show: false
 	});

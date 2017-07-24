@@ -1,6 +1,6 @@
 {
-	"name": "twitch-overlay2",
-	"productName": "twitch-overlay2",
+	"name": "dancing-shiffman",
+	"productName": "dancing-shiffman",
 	"version": "1.0.0",
 	"description": "My Electron application description",
 	"main": "src/index.js",
@@ -29,17 +29,17 @@
 			},
 			"electronPackagerConfig": {},
 			"electronWinstallerConfig": {
-				"name": "twitch_overlay2"
+				"name": "dancing_shiffman"
 			},
 			"electronInstallerDebian": {},
 			"electronInstallerRedhat": {},
 			"github_repository": {
-				"owner": "",
-				"name": ""
+				"owner": "alcadesign",
+				"name": "DancingShiffman"
 			},
 			"windowsStoreConfig": {
 				"packageName": "",
-				"name": "twitchoverlay2"
+				"name": "dancingshiffman"
 			}
 		}
 	},
