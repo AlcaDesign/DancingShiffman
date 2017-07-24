@@ -6,56 +6,14 @@
 	<style>
 		html,
 		body {
-			/*background-color: hsla(0, 0%, 0%, 0.0);*/
 			margin: 0;
 			overflow: hidden;
-		}
-		
-		iframe {
-			border: none;
-			position: absolute;
-			top: 0;
-			left: 0;
-			right: 0;
-			bottom: 0;
-		}
-		
-		#mouse {
-			position: absolute;
-			z-index: 100;
-			top: 0px;
-			left: 0px;
-			border: 2px solid red;
-			width: 4px;
-			height: 4px;
-			margin-left: -4px;
-			margin-top: -4px;
-			border-radius: 50%;
 		}
 	</style>
 </head>
 <body>
 
 <video src="green_dancing.webm" autoplay loop width="1920"></video>
-
-<div id="mouse"></div>
-
-<script>
-	
-	const { screen } = require('electron');
-	
-	let mouseEle = document.getElementById('mouse');
-	
-	requestAnimationFrame(draw);
-	
-	function draw() {
-		requestAnimationFrame(draw);
-		
-		let { x, y } = screen.getCursorScreenPoint();
-		mouseEle.style.transform = `translate3d(${x}px, ${y}px, 0)`;
-	}
-	
-</script>
 
 </body>
 </html>
